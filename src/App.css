@@ -1,0 +1,58 @@
+.boxs{
+max-width: 20rem;
+min-height: 20rem;
+}
+
+.long-url{
+    max-height: 110px;
+    overflow-y: auto;
+}
+.fixeds{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-size: cover;
+    padding: 20px;
+
+}
+.size{
+    width: 1.5rem;
+}
+.logout{
+    position: fixed;
+    bottom:20px;
+    right: 50px;
+    width: 100px;
+    padding: 14px;
+    font-weight:bold;
+    color: red;
+}
+.logout > img{
+    width: 100%;
+}
+.logout:hover{
+    background-color: white;
+    cursor: pointer;
+}
+.message{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.heading{
+    margin: 15px;
+    padding: 3px;
+}
+
+
+.headings {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; 
+}
+
+h1 {
+    font-size: 3rem; 
+    color: #333; 
+}
